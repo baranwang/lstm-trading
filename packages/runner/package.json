@@ -1,0 +1,20 @@
+{
+  "name": "@lstm-trading/runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lstm-trading/trading": "workspace:*",
+    "@lstm-trading/training": "workspace:*",
+    "@lstm-trading/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "~3.12.6"
+  }
+}
